@@ -1,0 +1,92 @@
+﻿  stdafx.cpp
+  dllmain.cpp
+D:\rixiaowork\me\pc_wechat_hook\WechatSendMessage\dllmain.cpp(62,52): error C2664:  “UINT GetDlgItemTextW(HWND,int,LPWSTR,int)”: 无法将参数 3 从“char [256]”转换为“LPWSTR”
+D:\rixiaowork\me\pc_wechat_hook\WechatSendMessage\dllmain.cpp(62,34): message :  与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\rixiaowork\me\pc_wechat_hook\WechatSendMessage\dllmain.cpp(63,61): error C2664:  “UINT GetDlgItemTextW(HWND,int,LPWSTR,int)”: 无法将参数 3 从“char [256]”转换为“LPWSTR”
+D:\rixiaowork\me\pc_wechat_hook\WechatSendMessage\dllmain.cpp(63,37): message :  与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\rixiaowork\me\pc_wechat_hook\WechatSendMessage\dllmain.cpp(67,52): error C2664:  “UINT GetDlgItemTextW(HWND,int,LPWSTR,int)”: 无法将参数 3 从“char [256]”转换为“LPWSTR”
+D:\rixiaowork\me\pc_wechat_hook\WechatSendMessage\dllmain.cpp(67,34): message :  与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\rixiaowork\me\pc_wechat_hook\WechatSendMessage\dllmain.cpp(68,61): error C2664:  “UINT GetDlgItemTextW(HWND,int,LPWSTR,int)”: 无法将参数 3 从“char [256]”转换为“LPWSTR”
+  WechatSendMessage.cpp
+D:\rixiaowork\me\pc_wechat_hook\WechatSendMessage\dllmain.cpp(68,37): message :  与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\rixiaowork\me\pc_wechat_hook\WechatSendMessage\WechatSendMessage.cpp(21,43): error C2664:  “HMODULE LoadLibraryW(LPCWSTR)”: 无法将参数 1 从“const char [14]”转换为“LPCWSTR”
+D:\rixiaowork\me\pc_wechat_hook\WechatSendMessage\WechatSendMessage.cpp(21,28): message :  与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\rixiaowork\me\pc_wechat_hook\WechatSendMessage\WechatSendMessage.cpp(51,29): warning C4267:  “=”: 从“size_t”转换到“int”，可能丢失数据
+D:\rixiaowork\me\pc_wechat_hook\WechatSendMessage\WechatSendMessage.cpp(52,35): warning C4267:  “=”: 从“size_t”转换到“int”，可能丢失数据
+D:\rixiaowork\me\pc_wechat_hook\WechatSendMessage\WechatSendMessage.cpp(56,35): warning C4267:  “=”: 从“size_t”转换到“int”，可能丢失数据
+D:\rixiaowork\me\pc_wechat_hook\WechatSendMessage\WechatSendMessage.cpp(57,40): warning C4267:  “=”: 从“size_t”转换到“int”，可能丢失数据
+D:\rixiaowork\me\pc_wechat_hook\WechatSendMessage\WechatSendMessage.cpp(65,2): error C4235:  使用了非标准扩展: 不支持在此结构上使用“__asm”关键字
+D:\rixiaowork\me\pc_wechat_hook\WechatSendMessage\WechatSendMessage.cpp(66,3): error C2065:  “mov”: 未声明的标识符
+D:\rixiaowork\me\pc_wechat_hook\WechatSendMessage\WechatSendMessage.cpp(66,7): error C2146:  语法错误: 缺少“;”(在标识符“edx”的前面)
+D:\rixiaowork\me\pc_wechat_hook\WechatSendMessage\WechatSendMessage.cpp(66,7): error C2065:  “edx”: 未声明的标识符
+D:\rixiaowork\me\pc_wechat_hook\WechatSendMessage\WechatSendMessage.cpp(67,3): error C2146:  语法错误: 缺少“;”(在标识符“push”的前面)
+D:\rixiaowork\me\pc_wechat_hook\WechatSendMessage\WechatSendMessage.cpp(67,3): error C2065:  “push”: 未声明的标识符
+D:\rixiaowork\me\pc_wechat_hook\WechatSendMessage\WechatSendMessage.cpp(67,8): error C2146:  语法错误: 缺少“;”(在标识符“edx”的前面)
+D:\rixiaowork\me\pc_wechat_hook\WechatSendMessage\WechatSendMessage.cpp(67,8): error C2065:  “edx”: 未声明的标识符
+D:\rixiaowork\me\pc_wechat_hook\WechatSendMessage\WechatSendMessage.cpp(68,3): error C2146:  语法错误: 缺少“;”(在标识符“push”的前面)
+D:\rixiaowork\me\pc_wechat_hook\WechatSendMessage\WechatSendMessage.cpp(68,3): error C2065:  “push”: 未声明的标识符
+D:\rixiaowork\me\pc_wechat_hook\WechatSendMessage\WechatSendMessage.cpp(68,8): error C2143:  语法错误: 缺少“;”(在“常数”的前面)
+D:\rixiaowork\me\pc_wechat_hook\WechatSendMessage\WechatSendMessage.cpp(69,3): error C2146:  语法错误: 缺少“;”(在标识符“push”的前面)
+D:\rixiaowork\me\pc_wechat_hook\WechatSendMessage\WechatSendMessage.cpp(69,3): error C2065:  “push”: 未声明的标识符
+D:\rixiaowork\me\pc_wechat_hook\WechatSendMessage\WechatSendMessage.cpp(69,8): error C2143:  语法错误: 缺少“;”(在“常数”的前面)
+D:\rixiaowork\me\pc_wechat_hook\WechatSendMessage\WechatSendMessage.cpp(70,3): error C2146:  语法错误: 缺少“;”(在标识符“mov”的前面)
+D:\rixiaowork\me\pc_wechat_hook\WechatSendMessage\WechatSendMessage.cpp(70,3): error C2065:  “mov”: 未声明的标识符
+D:\rixiaowork\me\pc_wechat_hook\WechatSendMessage\WechatSendMessage.cpp(70,7): error C2146:  语法错误: 缺少“;”(在标识符“ebx”的前面)
+D:\rixiaowork\me\pc_wechat_hook\WechatSendMessage\WechatSendMessage.cpp(70,7): error C2065:  “ebx”: 未声明的标识符
+D:\rixiaowork\me\pc_wechat_hook\WechatSendMessage\WechatSendMessage.cpp(71,3): error C2146:  语法错误: 缺少“;”(在标识符“push”的前面)
+D:\rixiaowork\me\pc_wechat_hook\WechatSendMessage\WechatSendMessage.cpp(71,3): error C2065:  “push”: 未声明的标识符
+D:\rixiaowork\me\pc_wechat_hook\WechatSendMessage\WechatSendMessage.cpp(71,8): error C2146:  语法错误: 缺少“;”(在标识符“ebx”的前面)
+D:\rixiaowork\me\pc_wechat_hook\WechatSendMessage\WechatSendMessage.cpp(71,8): error C2065:  “ebx”: 未声明的标识符
+D:\rixiaowork\me\pc_wechat_hook\WechatSendMessage\WechatSendMessage.cpp(72,3): error C2146:  语法错误: 缺少“;”(在标识符“lea”的前面)
+D:\rixiaowork\me\pc_wechat_hook\WechatSendMessage\WechatSendMessage.cpp(72,3): error C2065:  “lea”: 未声明的标识符
+D:\rixiaowork\me\pc_wechat_hook\WechatSendMessage\WechatSendMessage.cpp(72,7): error C2146:  语法错误: 缺少“;”(在标识符“ecx”的前面)
+D:\rixiaowork\me\pc_wechat_hook\WechatSendMessage\WechatSendMessage.cpp(72,7): error C2065:  “ecx”: 未声明的标识符
+D:\rixiaowork\me\pc_wechat_hook\WechatSendMessage\WechatSendMessage.cpp(73,3): error C2146:  语法错误: 缺少“;”(在标识符“call”的前面)
+D:\rixiaowork\me\pc_wechat_hook\WechatSendMessage\WechatSendMessage.cpp(73,3): error C2065:  “call”: 未声明的标识符
+D:\rixiaowork\me\pc_wechat_hook\WechatSendMessage\WechatSendMessage.cpp(73,8): error C2146:  语法错误: 缺少“;”(在标识符“callAdd”的前面)
+D:\rixiaowork\me\pc_wechat_hook\WechatSendMessage\WechatSendMessage.cpp(74,3): error C2146:  语法错误: 缺少“;”(在标识符“add”的前面)
+D:\rixiaowork\me\pc_wechat_hook\WechatSendMessage\WechatSendMessage.cpp(74,3): error C2065:  “add”: 未声明的标识符
+D:\rixiaowork\me\pc_wechat_hook\WechatSendMessage\WechatSendMessage.cpp(74,7): error C2146:  语法错误: 缺少“;”(在标识符“esp”的前面)
+D:\rixiaowork\me\pc_wechat_hook\WechatSendMessage\WechatSendMessage.cpp(74,7): error C2065:  “esp”: 未声明的标识符
+D:\rixiaowork\me\pc_wechat_hook\WechatSendMessage\WechatSendMessage.cpp(75,2): error C2143:  语法错误: 缺少“;”(在“}”的前面)
+D:\rixiaowork\me\pc_wechat_hook\WechatSendMessage\WechatSendMessage.cpp(93,29): warning C4267:  “=”: 从“size_t”转换到“int”，可能丢失数据
+D:\rixiaowork\me\pc_wechat_hook\WechatSendMessage\WechatSendMessage.cpp(94,34): warning C4267:  “=”: 从“size_t”转换到“int”，可能丢失数据
+D:\rixiaowork\me\pc_wechat_hook\WechatSendMessage\WechatSendMessage.cpp(99,28): warning C4267:  “=”: 从“size_t”转换到“int”，可能丢失数据
+D:\rixiaowork\me\pc_wechat_hook\WechatSendMessage\WechatSendMessage.cpp(100,33): warning C4267:  “=”: 从“size_t”转换到“int”，可能丢失数据
+D:\rixiaowork\me\pc_wechat_hook\WechatSendMessage\WechatSendMessage.cpp(109,30): error C2664:  “int MessageBoxW(HWND,LPCWSTR,LPCWSTR,UINT)”: 无法将参数 2 从“char [256]”转换为“LPCWSTR”
+D:\rixiaowork\me\pc_wechat_hook\WechatSendMessage\WechatSendMessage.cpp(109,18): message :  与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\rixiaowork\me\pc_wechat_hook\WechatSendMessage\WechatSendMessage.cpp(111,2): error C4235:  使用了非标准扩展: 不支持在此结构上使用“__asm”关键字
+D:\rixiaowork\me\pc_wechat_hook\WechatSendMessage\WechatSendMessage.cpp(112,3): error C2065:  “mov”: 未声明的标识符
+D:\rixiaowork\me\pc_wechat_hook\WechatSendMessage\WechatSendMessage.cpp(112,7): error C2146:  语法错误: 缺少“;”(在标识符“ebx”的前面)
+D:\rixiaowork\me\pc_wechat_hook\WechatSendMessage\WechatSendMessage.cpp(112,7): error C2065:  “ebx”: 未声明的标识符
+D:\rixiaowork\me\pc_wechat_hook\WechatSendMessage\WechatSendMessage.cpp(113,3): error C2146:  语法错误: 缺少“;”(在标识符“push”的前面)
+D:\rixiaowork\me\pc_wechat_hook\WechatSendMessage\WechatSendMessage.cpp(113,3): error C2065:  “push”: 未声明的标识符
+D:\rixiaowork\me\pc_wechat_hook\WechatSendMessage\WechatSendMessage.cpp(113,8): error C2146:  语法错误: 缺少“;”(在标识符“ebx”的前面)
+D:\rixiaowork\me\pc_wechat_hook\WechatSendMessage\WechatSendMessage.cpp(113,8): error C2065:  “ebx”: 未声明的标识符
+D:\rixiaowork\me\pc_wechat_hook\WechatSendMessage\WechatSendMessage.cpp(114,3): error C2146:  语法错误: 缺少“;”(在标识符“push”的前面)
+D:\rixiaowork\me\pc_wechat_hook\WechatSendMessage\WechatSendMessage.cpp(114,3): error C2065:  “push”: 未声明的标识符
+D:\rixiaowork\me\pc_wechat_hook\WechatSendMessage\WechatSendMessage.cpp(114,8): error C2146:  语法错误: 缺少“;”(在标识符“asmWxid”的前面)
+D:\rixiaowork\me\pc_wechat_hook\WechatSendMessage\WechatSendMessage.cpp(115,3): error C2146:  语法错误: 缺少“;”(在标识符“lea”的前面)
+D:\rixiaowork\me\pc_wechat_hook\WechatSendMessage\WechatSendMessage.cpp(115,3): error C2065:  “lea”: 未声明的标识符
+D:\rixiaowork\me\pc_wechat_hook\WechatSendMessage\WechatSendMessage.cpp(115,7): error C2146:  语法错误: 缺少“;”(在标识符“eax”的前面)
+D:\rixiaowork\me\pc_wechat_hook\WechatSendMessage\WechatSendMessage.cpp(115,7): error C2065:  “eax”: 未声明的标识符
+D:\rixiaowork\me\pc_wechat_hook\WechatSendMessage\WechatSendMessage.cpp(116,3): error C2146:  语法错误: 缺少“;”(在标识符“push”的前面)
+D:\rixiaowork\me\pc_wechat_hook\WechatSendMessage\WechatSendMessage.cpp(116,3): error C2065:  “push”: 未声明的标识符
+D:\rixiaowork\me\pc_wechat_hook\WechatSendMessage\WechatSendMessage.cpp(116,8): error C2146:  语法错误: 缺少“;”(在标识符“eax”的前面)
+D:\rixiaowork\me\pc_wechat_hook\WechatSendMessage\WechatSendMessage.cpp(116,8): error C2065:  “eax”: 未声明的标识符
+D:\rixiaowork\me\pc_wechat_hook\WechatSendMessage\WechatSendMessage.cpp(117,3): error C2146:  语法错误: 缺少“;”(在标识符“push”的前面)
+D:\rixiaowork\me\pc_wechat_hook\WechatSendMessage\WechatSendMessage.cpp(117,3): error C2065:  “push”: 未声明的标识符
+D:\rixiaowork\me\pc_wechat_hook\WechatSendMessage\WechatSendMessage.cpp(117,8): error C2143:  语法错误: 缺少“;”(在“常数”的前面)
+D:\rixiaowork\me\pc_wechat_hook\WechatSendMessage\WechatSendMessage.cpp(118,3): error C2146:  语法错误: 缺少“;”(在标识符“call”的前面)
+D:\rixiaowork\me\pc_wechat_hook\WechatSendMessage\WechatSendMessage.cpp(118,3): error C2065:  “call”: 未声明的标识符
+D:\rixiaowork\me\pc_wechat_hook\WechatSendMessage\WechatSendMessage.cpp(118,8): error C2146:  语法错误: 缺少“;”(在标识符“callAdd”的前面)
+D:\rixiaowork\me\pc_wechat_hook\WechatSendMessage\WechatSendMessage.cpp(119,3): error C2146:  语法错误: 缺少“;”(在标识符“add”的前面)
+D:\rixiaowork\me\pc_wechat_hook\WechatSendMessage\WechatSendMessage.cpp(119,3): error C2065:  “add”: 未声明的标识符
+D:\rixiaowork\me\pc_wechat_hook\WechatSendMessage\WechatSendMessage.cpp(119,7): error C2146:  语法错误: 缺少“;”(在标识符“esp”的前面)
+D:\rixiaowork\me\pc_wechat_hook\WechatSendMessage\WechatSendMessage.cpp(119,7): error C2065:  “esp”: 未声明的标识符
+D:\rixiaowork\me\pc_wechat_hook\WechatSendMessage\WechatSendMessage.cpp(120,2): error C2143:  语法错误: 缺少“;”(在“}”的前面)
+D:\rixiaowork\me\pc_wechat_hook\WechatSendMessage\WechatSendMessage.cpp(126,2): error C4235:  使用了非标准扩展: 不支持在此结构上使用“__asm”关键字
+D:\rixiaowork\me\pc_wechat_hook\WechatSendMessage\WechatSendMessage.cpp(127,3): error C2065:  “push”: 未声明的标识符
+D:\rixiaowork\me\pc_wechat_hook\WechatSendMessage\WechatSendMessage.cpp(127,8): error C2143:  语法错误: 缺少“;”(在“常数”的前面)
+  正在生成代码...
+D:\rixiaowork\me\pc_wechat_hook\WechatSendMessage\WechatSendMessage.cpp(129,2): error C2143:  语法错误: 缺少“;”(在“}”的前面)

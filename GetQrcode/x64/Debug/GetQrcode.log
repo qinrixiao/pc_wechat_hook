@@ -1,0 +1,126 @@
+﻿  stdafx.cpp
+  dllmain.cpp
+  GetQrcode.cpp
+D:\rixiaowork\me\pc_wechat_hook\GetQrcode\GetQrcode.cpp(22,43): error C2664:  “HMODULE LoadLibraryW(LPCWSTR)”: 无法将参数 1 从“const char [14]”转换为“LPCWSTR”
+D:\rixiaowork\me\pc_wechat_hook\GetQrcode\GetQrcode.cpp(22,28): message :  与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\rixiaowork\me\pc_wechat_hook\GetQrcode\GetQrcode.cpp(27,42): error C2664:  “HMODULE LoadLibraryW(LPCWSTR)”: 无法将参数 1 从“const char [13]”转换为“LPCWSTR”
+D:\rixiaowork\me\pc_wechat_hook\GetQrcode\GetQrcode.cpp(27,28): message :  与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\rixiaowork\me\pc_wechat_hook\GetQrcode\GetQrcode.cpp(45,40): warning C4311:  “类型强制转换”: 从“LPVOID”到“DWORD”的指针截断
+D:\rixiaowork\me\pc_wechat_hook\GetQrcode\GetQrcode.cpp(45,40): warning C4302:  “类型强制转换”: 从“LPVOID”到“DWORD”截断
+D:\rixiaowork\me\pc_wechat_hook\GetQrcode\GetQrcode.cpp(53,5): warning C4312:  “类型强制转换”: 从“DWORD”转换到更大的“LPVOID”
+D:\rixiaowork\me\pc_wechat_hook\GetQrcode\GetQrcode.cpp(54,73): error C2664:  “int MessageBoxW(HWND,LPCWSTR,LPCWSTR,UINT)”: 无法将参数 2 从“const char [23]”转换为“LPCWSTR”
+D:\rixiaowork\me\pc_wechat_hook\GetQrcode\GetQrcode.cpp(54,19): message :  与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\rixiaowork\me\pc_wechat_hook\GetQrcode\GetQrcode.cpp(59,5): warning C4312:  “类型强制转换”: 从“DWORD”转换到更大的“LPVOID”
+D:\rixiaowork\me\pc_wechat_hook\GetQrcode\GetQrcode.cpp(60,73): error C2664:  “int MessageBoxW(HWND,LPCWSTR,LPCWSTR,UINT)”: 无法将参数 2 从“const char [27]”转换为“LPCWSTR”
+D:\rixiaowork\me\pc_wechat_hook\GetQrcode\GetQrcode.cpp(60,19): message :  与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\rixiaowork\me\pc_wechat_hook\GetQrcode\GetQrcode.cpp(71,5): warning C4312:  “类型强制转换”: 从“DWORD”转换到更大的“LPVOID”
+D:\rixiaowork\me\pc_wechat_hook\GetQrcode\GetQrcode.cpp(72,53): error C2664:  “int MessageBoxW(HWND,LPCWSTR,LPCWSTR,UINT)”: 无法将参数 2 从“const char [13]”转换为“LPCWSTR”
+D:\rixiaowork\me\pc_wechat_hook\GetQrcode\GetQrcode.cpp(72,20): message :  与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\rixiaowork\me\pc_wechat_hook\GetQrcode\GetQrcode.cpp(84,44): warning C4312:  “类型强制转换”: 从“DWORD”转换到更大的“LPVOID *”
+D:\rixiaowork\me\pc_wechat_hook\GetQrcode\GetQrcode.cpp(86,36): warning C4312:  “类型强制转换”: 从“DWORD”转换到更大的“LPVOID *”
+D:\rixiaowork\me\pc_wechat_hook\GetQrcode\GetQrcode.cpp(111,17): error C2485:  “naked”: 无法识别的扩展特性
+D:\rixiaowork\me\pc_wechat_hook\GetQrcode\GetQrcode.cpp(119,2): error C4235:  使用了非标准扩展: 不支持在此结构上使用“__asm”关键字
+D:\rixiaowork\me\pc_wechat_hook\GetQrcode\GetQrcode.cpp(120,3): error C2065:  “mov”: 未声明的标识符
+D:\rixiaowork\me\pc_wechat_hook\GetQrcode\GetQrcode.cpp(120,7): error C2146:  语法错误: 缺少“;”(在标识符“cEax”的前面)
+D:\rixiaowork\me\pc_wechat_hook\GetQrcode\GetQrcode.cpp(120,13): error C2065:  “eax”: 未声明的标识符
+D:\rixiaowork\me\pc_wechat_hook\GetQrcode\GetQrcode.cpp(121,3): error C2146:  语法错误: 缺少“;”(在标识符“mov”的前面)
+D:\rixiaowork\me\pc_wechat_hook\GetQrcode\GetQrcode.cpp(121,3): error C2065:  “mov”: 未声明的标识符
+D:\rixiaowork\me\pc_wechat_hook\GetQrcode\GetQrcode.cpp(121,7): error C2146:  语法错误: 缺少“;”(在标识符“cEcx”的前面)
+D:\rixiaowork\me\pc_wechat_hook\GetQrcode\GetQrcode.cpp(121,13): error C2065:  “ecx”: 未声明的标识符
+D:\rixiaowork\me\pc_wechat_hook\GetQrcode\GetQrcode.cpp(122,3): error C2146:  语法错误: 缺少“;”(在标识符“mov”的前面)
+D:\rixiaowork\me\pc_wechat_hook\GetQrcode\GetQrcode.cpp(122,3): error C2065:  “mov”: 未声明的标识符
+D:\rixiaowork\me\pc_wechat_hook\GetQrcode\GetQrcode.cpp(122,7): error C2146:  语法错误: 缺少“;”(在标识符“cEdx”的前面)
+D:\rixiaowork\me\pc_wechat_hook\GetQrcode\GetQrcode.cpp(122,13): error C2065:  “edx”: 未声明的标识符
+D:\rixiaowork\me\pc_wechat_hook\GetQrcode\GetQrcode.cpp(123,3): error C2146:  语法错误: 缺少“;”(在标识符“mov”的前面)
+D:\rixiaowork\me\pc_wechat_hook\GetQrcode\GetQrcode.cpp(123,3): error C2065:  “mov”: 未声明的标识符
+D:\rixiaowork\me\pc_wechat_hook\GetQrcode\GetQrcode.cpp(123,7): error C2146:  语法错误: 缺少“;”(在标识符“cEbx”的前面)
+D:\rixiaowork\me\pc_wechat_hook\GetQrcode\GetQrcode.cpp(123,13): error C2065:  “ebx”: 未声明的标识符
+D:\rixiaowork\me\pc_wechat_hook\GetQrcode\GetQrcode.cpp(124,3): error C2146:  语法错误: 缺少“;”(在标识符“mov”的前面)
+D:\rixiaowork\me\pc_wechat_hook\GetQrcode\GetQrcode.cpp(124,3): error C2065:  “mov”: 未声明的标识符
+D:\rixiaowork\me\pc_wechat_hook\GetQrcode\GetQrcode.cpp(124,7): error C2146:  语法错误: 缺少“;”(在标识符“cEsp”的前面)
+D:\rixiaowork\me\pc_wechat_hook\GetQrcode\GetQrcode.cpp(124,13): error C2065:  “esp”: 未声明的标识符
+D:\rixiaowork\me\pc_wechat_hook\GetQrcode\GetQrcode.cpp(125,3): error C2146:  语法错误: 缺少“;”(在标识符“mov”的前面)
+D:\rixiaowork\me\pc_wechat_hook\GetQrcode\GetQrcode.cpp(125,3): error C2065:  “mov”: 未声明的标识符
+D:\rixiaowork\me\pc_wechat_hook\GetQrcode\GetQrcode.cpp(125,7): error C2146:  语法错误: 缺少“;”(在标识符“cEbp”的前面)
+D:\rixiaowork\me\pc_wechat_hook\GetQrcode\GetQrcode.cpp(125,13): error C2065:  “ebp”: 未声明的标识符
+D:\rixiaowork\me\pc_wechat_hook\GetQrcode\GetQrcode.cpp(126,3): error C2146:  语法错误: 缺少“;”(在标识符“mov”的前面)
+D:\rixiaowork\me\pc_wechat_hook\GetQrcode\GetQrcode.cpp(126,3): error C2065:  “mov”: 未声明的标识符
+D:\rixiaowork\me\pc_wechat_hook\GetQrcode\GetQrcode.cpp(126,7): error C2146:  语法错误: 缺少“;”(在标识符“cEsi”的前面)
+D:\rixiaowork\me\pc_wechat_hook\GetQrcode\GetQrcode.cpp(126,13): error C2065:  “esi”: 未声明的标识符
+D:\rixiaowork\me\pc_wechat_hook\GetQrcode\GetQrcode.cpp(127,3): error C2146:  语法错误: 缺少“;”(在标识符“mov”的前面)
+D:\rixiaowork\me\pc_wechat_hook\GetQrcode\GetQrcode.cpp(127,3): error C2065:  “mov”: 未声明的标识符
+D:\rixiaowork\me\pc_wechat_hook\GetQrcode\GetQrcode.cpp(127,7): error C2146:  语法错误: 缺少“;”(在标识符“cEdi”的前面)
+D:\rixiaowork\me\pc_wechat_hook\GetQrcode\GetQrcode.cpp(127,13): error C2065:  “edi”: 未声明的标识符
+D:\rixiaowork\me\pc_wechat_hook\GetQrcode\GetQrcode.cpp(128,2): error C2143:  语法错误: 缺少“;”(在“}”的前面)
+D:\rixiaowork\me\pc_wechat_hook\GetQrcode\GetQrcode.cpp(136,2): error C4235:  使用了非标准扩展: 不支持在此结构上使用“__asm”关键字
+D:\rixiaowork\me\pc_wechat_hook\GetQrcode\GetQrcode.cpp(137,3): error C2065:  “mov”: 未声明的标识符
+D:\rixiaowork\me\pc_wechat_hook\GetQrcode\GetQrcode.cpp(137,7): error C2146:  语法错误: 缺少“;”(在标识符“eax”的前面)
+D:\rixiaowork\me\pc_wechat_hook\GetQrcode\GetQrcode.cpp(137,7): error C2065:  “eax”: 未声明的标识符
+D:\rixiaowork\me\pc_wechat_hook\GetQrcode\GetQrcode.cpp(138,3): error C2146:  语法错误: 缺少“;”(在标识符“mov”的前面)
+D:\rixiaowork\me\pc_wechat_hook\GetQrcode\GetQrcode.cpp(138,3): error C2065:  “mov”: 未声明的标识符
+D:\rixiaowork\me\pc_wechat_hook\GetQrcode\GetQrcode.cpp(138,7): error C2146:  语法错误: 缺少“;”(在标识符“ecx”的前面)
+D:\rixiaowork\me\pc_wechat_hook\GetQrcode\GetQrcode.cpp(138,7): error C2065:  “ecx”: 未声明的标识符
+D:\rixiaowork\me\pc_wechat_hook\GetQrcode\GetQrcode.cpp(139,3): error C2146:  语法错误: 缺少“;”(在标识符“mov”的前面)
+D:\rixiaowork\me\pc_wechat_hook\GetQrcode\GetQrcode.cpp(139,3): error C2065:  “mov”: 未声明的标识符
+D:\rixiaowork\me\pc_wechat_hook\GetQrcode\GetQrcode.cpp(139,7): error C2146:  语法错误: 缺少“;”(在标识符“edx”的前面)
+D:\rixiaowork\me\pc_wechat_hook\GetQrcode\GetQrcode.cpp(139,7): error C2065:  “edx”: 未声明的标识符
+D:\rixiaowork\me\pc_wechat_hook\GetQrcode\GetQrcode.cpp(140,3): error C2146:  语法错误: 缺少“;”(在标识符“mov”的前面)
+D:\rixiaowork\me\pc_wechat_hook\GetQrcode\GetQrcode.cpp(140,3): error C2065:  “mov”: 未声明的标识符
+D:\rixiaowork\me\pc_wechat_hook\GetQrcode\GetQrcode.cpp(140,7): error C2146:  语法错误: 缺少“;”(在标识符“ebx”的前面)
+D:\rixiaowork\me\pc_wechat_hook\GetQrcode\GetQrcode.cpp(140,7): error C2065:  “ebx”: 未声明的标识符
+D:\rixiaowork\me\pc_wechat_hook\GetQrcode\GetQrcode.cpp(141,3): error C2146:  语法错误: 缺少“;”(在标识符“mov”的前面)
+D:\rixiaowork\me\pc_wechat_hook\GetQrcode\GetQrcode.cpp(141,3): error C2065:  “mov”: 未声明的标识符
+D:\rixiaowork\me\pc_wechat_hook\GetQrcode\GetQrcode.cpp(141,7): error C2146:  语法错误: 缺少“;”(在标识符“esp”的前面)
+D:\rixiaowork\me\pc_wechat_hook\GetQrcode\GetQrcode.cpp(141,7): error C2065:  “esp”: 未声明的标识符
+D:\rixiaowork\me\pc_wechat_hook\GetQrcode\GetQrcode.cpp(142,3): error C2146:  语法错误: 缺少“;”(在标识符“mov”的前面)
+D:\rixiaowork\me\pc_wechat_hook\GetQrcode\GetQrcode.cpp(142,3): error C2065:  “mov”: 未声明的标识符
+D:\rixiaowork\me\pc_wechat_hook\GetQrcode\GetQrcode.cpp(142,7): error C2146:  语法错误: 缺少“;”(在标识符“ebp”的前面)
+D:\rixiaowork\me\pc_wechat_hook\GetQrcode\GetQrcode.cpp(142,7): error C2065:  “ebp”: 未声明的标识符
+D:\rixiaowork\me\pc_wechat_hook\GetQrcode\GetQrcode.cpp(143,3): error C2146:  语法错误: 缺少“;”(在标识符“mov”的前面)
+D:\rixiaowork\me\pc_wechat_hook\GetQrcode\GetQrcode.cpp(143,3): error C2065:  “mov”: 未声明的标识符
+D:\rixiaowork\me\pc_wechat_hook\GetQrcode\GetQrcode.cpp(143,7): error C2146:  语法错误: 缺少“;”(在标识符“esi”的前面)
+D:\rixiaowork\me\pc_wechat_hook\GetQrcode\GetQrcode.cpp(143,7): error C2065:  “esi”: 未声明的标识符
+D:\rixiaowork\me\pc_wechat_hook\GetQrcode\GetQrcode.cpp(144,3): error C2146:  语法错误: 缺少“;”(在标识符“mov”的前面)
+D:\rixiaowork\me\pc_wechat_hook\GetQrcode\GetQrcode.cpp(144,3): error C2065:  “mov”: 未声明的标识符
+D:\rixiaowork\me\pc_wechat_hook\GetQrcode\GetQrcode.cpp(144,7): error C2146:  语法错误: 缺少“;”(在标识符“edi”的前面)
+D:\rixiaowork\me\pc_wechat_hook\GetQrcode\GetQrcode.cpp(144,7): error C2065:  “edi”: 未声明的标识符
+D:\rixiaowork\me\pc_wechat_hook\GetQrcode\GetQrcode.cpp(145,3): error C2146:  语法错误: 缺少“;”(在标识符“call”的前面)
+D:\rixiaowork\me\pc_wechat_hook\GetQrcode\GetQrcode.cpp(145,3): error C2065:  “call”: 未声明的标识符
+D:\rixiaowork\me\pc_wechat_hook\GetQrcode\GetQrcode.cpp(145,8): error C2146:  语法错误: 缺少“;”(在标识符“retCallAdd”的前面)
+D:\rixiaowork\me\pc_wechat_hook\GetQrcode\GetQrcode.cpp(146,3): error C2146:  语法错误: 缺少“;”(在标识符“jmp”的前面)
+D:\rixiaowork\me\pc_wechat_hook\GetQrcode\GetQrcode.cpp(146,3): error C2065:  “jmp”: 未声明的标识符
+D:\rixiaowork\me\pc_wechat_hook\GetQrcode\GetQrcode.cpp(146,7): error C2146:  语法错误: 缺少“;”(在标识符“retAdd”的前面)
+D:\rixiaowork\me\pc_wechat_hook\GetQrcode\GetQrcode.cpp(147,2): error C2143:  语法错误: 缺少“;”(在“}”的前面)
+D:\rixiaowork\me\pc_wechat_hook\GetQrcode\GetQrcode.cpp(177,6): warning C4312:  “类型强制转换”: 从“DWORD”转换到更大的“LPVOID”
+D:\rixiaowork\me\pc_wechat_hook\GetQrcode\GetQrcode.cpp(178,56): error C2664:  “int MessageBoxW(HWND,LPCWSTR,LPCWSTR,UINT)”: 无法将参数 2 从“const char [13]”转换为“LPCWSTR”
+D:\rixiaowork\me\pc_wechat_hook\GetQrcode\GetQrcode.cpp(178,21): message :  与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\rixiaowork\me\pc_wechat_hook\GetQrcode\GetQrcode.cpp(182,66): warning C4312:  “类型强制转换”: 从“DWORD”转换到更大的“WCHAR *”
+D:\rixiaowork\me\pc_wechat_hook\GetQrcode\GetQrcode.cpp(184,38): error C2664:  “BOOL SetDlgItemTextW(HWND,int,LPCWSTR)”: 无法将参数 3 从“char [256]”转换为“LPCWSTR”
+D:\rixiaowork\me\pc_wechat_hook\GetQrcode\GetQrcode.cpp(184,34): message :  与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\rixiaowork\me\pc_wechat_hook\GetQrcode\GetQrcode.cpp(200,49): error C2664:  “HMODULE GetModuleHandleW(LPCWSTR)”: 无法将参数 1 从“const char [13]”转换为“LPCWSTR”
+D:\rixiaowork\me\pc_wechat_hook\GetQrcode\GetQrcode.cpp(200,35): message :  与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\rixiaowork\me\pc_wechat_hook\GetQrcode\GetQrcode.cpp(203,17): error C2485:  “naked”: 无法识别的扩展特性
+D:\rixiaowork\me\pc_wechat_hook\GetQrcode\GetQrcode.cpp(211,2): error C4235:  使用了非标准扩展: 不支持在此结构上使用“__asm”关键字
+D:\rixiaowork\me\pc_wechat_hook\GetQrcode\GetQrcode.cpp(212,3): error C2065:  “mov”: 未声明的标识符
+D:\rixiaowork\me\pc_wechat_hook\GetQrcode\GetQrcode.cpp(212,7): error C2146:  语法错误: 缺少“;”(在标识符“cEax”的前面)
+D:\rixiaowork\me\pc_wechat_hook\GetQrcode\GetQrcode.cpp(212,13): error C2065:  “eax”: 未声明的标识符
+D:\rixiaowork\me\pc_wechat_hook\GetQrcode\GetQrcode.cpp(213,3): error C2146:  语法错误: 缺少“;”(在标识符“mov”的前面)
+D:\rixiaowork\me\pc_wechat_hook\GetQrcode\GetQrcode.cpp(213,3): error C2065:  “mov”: 未声明的标识符
+D:\rixiaowork\me\pc_wechat_hook\GetQrcode\GetQrcode.cpp(213,7): error C2146:  语法错误: 缺少“;”(在标识符“cEcx”的前面)
+D:\rixiaowork\me\pc_wechat_hook\GetQrcode\GetQrcode.cpp(213,13): error C2065:  “ecx”: 未声明的标识符
+D:\rixiaowork\me\pc_wechat_hook\GetQrcode\GetQrcode.cpp(214,3): error C2146:  语法错误: 缺少“;”(在标识符“mov”的前面)
+D:\rixiaowork\me\pc_wechat_hook\GetQrcode\GetQrcode.cpp(214,3): error C2065:  “mov”: 未声明的标识符
+D:\rixiaowork\me\pc_wechat_hook\GetQrcode\GetQrcode.cpp(214,7): error C2146:  语法错误: 缺少“;”(在标识符“cEdx”的前面)
+D:\rixiaowork\me\pc_wechat_hook\GetQrcode\GetQrcode.cpp(214,13): error C2065:  “edx”: 未声明的标识符
+D:\rixiaowork\me\pc_wechat_hook\GetQrcode\GetQrcode.cpp(215,3): error C2146:  语法错误: 缺少“;”(在标识符“mov”的前面)
+D:\rixiaowork\me\pc_wechat_hook\GetQrcode\GetQrcode.cpp(215,3): error C2065:  “mov”: 未声明的标识符
+D:\rixiaowork\me\pc_wechat_hook\GetQrcode\GetQrcode.cpp(215,7): error C2146:  语法错误: 缺少“;”(在标识符“cEbx”的前面)
+D:\rixiaowork\me\pc_wechat_hook\GetQrcode\GetQrcode.cpp(215,13): error C2065:  “ebx”: 未声明的标识符
+D:\rixiaowork\me\pc_wechat_hook\GetQrcode\GetQrcode.cpp(216,3): error C2146:  语法错误: 缺少“;”(在标识符“mov”的前面)
+D:\rixiaowork\me\pc_wechat_hook\GetQrcode\GetQrcode.cpp(216,3): error C2065:  “mov”: 未声明的标识符
+D:\rixiaowork\me\pc_wechat_hook\GetQrcode\GetQrcode.cpp(216,7): error C2146:  语法错误: 缺少“;”(在标识符“cEsp”的前面)
+D:\rixiaowork\me\pc_wechat_hook\GetQrcode\GetQrcode.cpp(216,13): error C2065:  “esp”: 未声明的标识符
+D:\rixiaowork\me\pc_wechat_hook\GetQrcode\GetQrcode.cpp(217,3): error C2146:  语法错误: 缺少“;”(在标识符“mov”的前面)
+D:\rixiaowork\me\pc_wechat_hook\GetQrcode\GetQrcode.cpp(217,3): error C2065:  “mov”: 未声明的标识符
+  正在生成代码...
+D:\rixiaowork\me\pc_wechat_hook\GetQrcode\GetQrcode.cpp(217,11): error C1003:  错误计数超过 100；正在停止编译

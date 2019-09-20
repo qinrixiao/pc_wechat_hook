@@ -1,0 +1,10 @@
+﻿  stdafx.cpp
+  Inject.cpp
+D:\rixiaowork\me\pc_wechat_hook\TeachDemo\Inject.cpp(45,39): warning C4267:  “初始化”: 从“size_t”转换到“DWORD”，可能丢失数据
+D:\rixiaowork\me\pc_wechat_hook\TeachDemo\Inject.cpp(86,22): warning C4477:  “swprintf_s”: 格式字符串“%s”需要类型“wchar_t *”的参数，但可变参数 2 拥有了类型“char *”
+D:\rixiaowork\me\pc_wechat_hook\TeachDemo\Inject.cpp(86,22): message :  请考虑在格式字符串中使用“%hs”
+D:\rixiaowork\me\pc_wechat_hook\TeachDemo\Inject.cpp(86,22): message :  请考虑在格式字符串中使用“%Ts”
+  TeachDemo.cpp
+  正在生成代码...
+D:\rixiaowork\me\pc_wechat_hook\TeachDemo\Inject.cpp(86,22): message :  Visual C++ 使用非标准语义时会出现此警告
+  TeachDemo.vcxproj -> D:\rixiaowork\me\pc_wechat_hook\x64\Debug\TeachDemo.exe
