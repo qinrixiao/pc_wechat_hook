@@ -1,1 +1,3 @@
 /.vs
+*.pch
+/WechatSendMessage/x64/Debug/*.pch

@@ -1,5 +1,4 @@
-﻿  stdafx.cpp
-  dllmain.cpp
+﻿  dllmain.cpp
 D:\rixiaowork\me\pc_wechat_hook\GetUserLists\dllmain.cpp(59,47): error C2664:  “int MessageBoxW(HWND,LPCWSTR,LPCWSTR,UINT)”: 无法将参数 2 从“const char [9]”转换为“LPCWSTR”
 D:\rixiaowork\me\pc_wechat_hook\GetUserLists\dllmain.cpp(59,20): message :  与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
 D:\rixiaowork\me\pc_wechat_hook\GetUserLists\dllmain.cpp(79,39): error C2440:  “=”: 无法从“LPSTR”转换为“LPWSTR”

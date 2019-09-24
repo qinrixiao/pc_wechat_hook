@@ -1,6 +1,4 @@
-﻿  stdafx.cpp
-  dllmain.cpp
-  SendXmlMessage.cpp
+﻿  SendXmlMessage.cpp
 D:\rixiaowork\me\pc_wechat_hook\SendXmlMessage\SendXmlMessage.cpp(28,45): warning C4311:  “类型强制转换”: 从“HMODULE”到“DWORD”的指针截断
 D:\rixiaowork\me\pc_wechat_hook\SendXmlMessage\SendXmlMessage.cpp(28,45): warning C4302:  “类型强制转换”: 从“HMODULE”到“DWORD”截断
 D:\rixiaowork\me\pc_wechat_hook\SendXmlMessage\SendXmlMessage.cpp(72,34): warning C4267:  “=”: 从“size_t”转换到“int”，可能丢失数据
@@ -120,5 +118,4 @@ D:\rixiaowork\me\pc_wechat_hook\SendXmlMessage\SendXmlMessage.cpp(183,3): error 
 D:\rixiaowork\me\pc_wechat_hook\SendXmlMessage\SendXmlMessage.cpp(183,3): error C2065:  “push”: 未声明的标识符
 D:\rixiaowork\me\pc_wechat_hook\SendXmlMessage\SendXmlMessage.cpp(183,8): error C2146:  语法错误: 缺少“;”(在标识符“eax”的前面)
 D:\rixiaowork\me\pc_wechat_hook\SendXmlMessage\SendXmlMessage.cpp(183,8): error C2065:  “eax”: 未声明的标识符
-  正在生成代码...
 D:\rixiaowork\me\pc_wechat_hook\SendXmlMessage\SendXmlMessage.cpp(184,7): error C1003:  错误计数超过 100；正在停止编译

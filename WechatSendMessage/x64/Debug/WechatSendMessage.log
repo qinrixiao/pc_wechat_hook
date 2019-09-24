@@ -1,5 +1,4 @@
-﻿  stdafx.cpp
-  dllmain.cpp
+﻿  dllmain.cpp
 D:\rixiaowork\me\pc_wechat_hook\WechatSendMessage\dllmain.cpp(62,52): error C2664:  “UINT GetDlgItemTextW(HWND,int,LPWSTR,int)”: 无法将参数 3 从“char [256]”转换为“LPWSTR”
 D:\rixiaowork\me\pc_wechat_hook\WechatSendMessage\dllmain.cpp(62,34): message :  与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
 D:\rixiaowork\me\pc_wechat_hook\WechatSendMessage\dllmain.cpp(63,61): error C2664:  “UINT GetDlgItemTextW(HWND,int,LPWSTR,int)”: 无法将参数 3 从“char [256]”转换为“LPWSTR”

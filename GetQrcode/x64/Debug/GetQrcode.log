@@ -1,6 +1,4 @@
-﻿  stdafx.cpp
-  dllmain.cpp
-  GetQrcode.cpp
+﻿  GetQrcode.cpp
 D:\rixiaowork\me\pc_wechat_hook\GetQrcode\GetQrcode.cpp(22,43): error C2664:  “HMODULE LoadLibraryW(LPCWSTR)”: 无法将参数 1 从“const char [14]”转换为“LPCWSTR”
 D:\rixiaowork\me\pc_wechat_hook\GetQrcode\GetQrcode.cpp(22,28): message :  与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
 D:\rixiaowork\me\pc_wechat_hook\GetQrcode\GetQrcode.cpp(27,42): error C2664:  “HMODULE LoadLibraryW(LPCWSTR)”: 无法将参数 1 从“const char [13]”转换为“LPCWSTR”
@@ -122,5 +120,4 @@ D:\rixiaowork\me\pc_wechat_hook\GetQrcode\GetQrcode.cpp(216,7): error C2146:  �
 D:\rixiaowork\me\pc_wechat_hook\GetQrcode\GetQrcode.cpp(216,13): error C2065:  “esp”: 未声明的标识符
 D:\rixiaowork\me\pc_wechat_hook\GetQrcode\GetQrcode.cpp(217,3): error C2146:  语法错误: 缺少“;”(在标识符“mov”的前面)
 D:\rixiaowork\me\pc_wechat_hook\GetQrcode\GetQrcode.cpp(217,3): error C2065:  “mov”: 未声明的标识符
-  正在生成代码...
 D:\rixiaowork\me\pc_wechat_hook\GetQrcode\GetQrcode.cpp(217,11): error C1003:  错误计数超过 100；正在停止编译
