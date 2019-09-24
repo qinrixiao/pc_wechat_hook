@@ -241,6 +241,4 @@ ModelManifest.xml
 # FAKE - F# Make
 .fake/
 /packages
-/Mvc_ii328/logs/msginfo
-/Mvc_ii328/logs/web
 logs
